@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color: #00cec9;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+h3 {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    color: #00b894;
+}
+label {
+    color: #00b894;
+}
+.form-control {
+    color: #00b894;
+}
+.option {
+    color: #00b894;
+}
+
+.friends {
+    display: flex;
+    justify-content: space-between;
+}
+.user {
+    flex: 0 0 33%;
+}

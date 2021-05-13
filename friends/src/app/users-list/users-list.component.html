@@ -1,0 +1,29 @@
+<div class="container">
+    <h1>Friends</h1>
+    <div class="row">
+        <div class="form-group">
+            <label for="users">
+                choose a user:</label>
+            <select [ngModel]="users" id="users" class="form-control" (change)="onChange($event.target.value)">
+                <option class="option" *ngFor="let user of users" [value]="user.id">
+                    {{user.firstName}}
+                </option>
+            </select>
+        </div>
+    </div>
+    <div class="friends">
+        <div class="user">
+            <h3>Direct friends:</h3>
+            <app-user *ngFor="let elUser of directUsers; let i= index" [i]="i" [user]="elUser"></app-user>
+        </div>
+        <div class="user">
+            <h3>Friends of friends:</h3>
+            <app-user *ngFor="let elUser of friendsOfFriends; let i= index" [i]="i"  [user]="elUser"></app-user>
+        </div>
+        <div class="user">
+            <h3>Suggested friends:</h3>
+            <app-user *ngFor="let elUser of suggestedFriends; let i= index" [i]="i" [user]="elUser"></app-user>
+        </div>
+    </div>
+
+</div>
