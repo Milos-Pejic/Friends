@@ -5,9 +5,9 @@
 
 * Prvo treba da se klonira  Git repozitorijum:
     * git clone [https://github.com/Milos-Pejic/Friends.git]
-    * Uci u projekat u root direktorijumu i pokrenuti npm install.
+    * Uci u projekat, otvoriti terminal i ukucati "npm install".
     * Posle toga, "npm start" da se pokrene aplikacija.
-    * Posle toga otvoriti jos jedan terminal i ukucati komandu "json-server --watch db.json".
+    * Posle toga otvoriti jos jedan terminal i ukucati komandu "json-server --watch db.json", da bi se pokrenuo db.json server.
 
 ## Opis projekta:
     Aplikacija za prikaz prijatelja.
