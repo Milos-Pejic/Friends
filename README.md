@@ -1,7 +1,7 @@
 # Friends
 
 
-## Upustvo za pokretanje FRIENDS-APP aplikacije:
+## Upustvo za pokretanje FRIENDS aplikacije:
 
 * Prvo treba da se klonira  Git repozitorijum:
     * git clone [https://github.com/Milos-Pejic/Friends.git]
