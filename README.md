@@ -1,6 +1,5 @@
 # Friends
 
-# Friends
 
 ## Upustvo za pokretanje BANK-APP aplikacije:
 
@@ -11,7 +10,7 @@
     * Posle toga otvoriti jos jedan terminal i ukucati komandu "json-server --watch db.json".
 
 ## Opis projekta:
-    Ova aplikacija omogucava korisinicama da podnesu zahtev za kredit. Nakon toga dobijaju odgovor da li je kredit odbijen, odboren ili je zahtev na cekanju.
+    Aplikacija za prikaz prijatelja.
 
 ## Funkcionalnosti:
     * Prilikom selektovanja jednog lica, mozete videti njegove bliske prijatelje, prijatelje njegovih prijatelja i predlozene prijatelje
