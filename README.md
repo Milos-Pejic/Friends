@@ -13,7 +13,7 @@
     Aplikacija za prikaz prijatelja.
 
 ## Funkcionalnosti:
-    * Prilikom selektovanja jednog lica, mozete videti njegove bliske prijatelje, prijatelje njegovih prijatelja i predlozene prijatelje
+    * Prilikom selektovanja jednog lica. Mozete videti njegove bliske prijatelje, prijatelje njegovih prijatelja i predlozene prijatelje
 
 ## Koriscene tehnologije:
     * VSCode
